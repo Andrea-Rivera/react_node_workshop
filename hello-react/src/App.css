@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+/*----------- Day 2 Exercise Code -----------*/
+/* Change the size of logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* End of Change the size of logo */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Change the color of header text */
+.App-header {
+  background-color: #89a4d9;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(145, 233, 155);
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+/* End of Change the color of header text */
+
+/* Change the color of link */
+.App-link {
+  color: #61dafb;
+}
+/* End of Change the color of link */
+
+/* Change the margin and color of the button */
+.btn{
+  margin-left: 10px;
+  background-color:#61dafb;
+  border-radius: 10px;
+  border-style: none;
+  padding: 5px 20px;
+}
+
+/* Change the margin of the label */
+.label{
+  margin-right: 10px;
+}
+
+/*----------- End of Day 2 Exercise Code -----------*/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
